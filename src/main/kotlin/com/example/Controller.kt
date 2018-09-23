@@ -57,8 +57,8 @@ class Controller {
     @RequestMapping("/hello")
     internal fun hello(model: MutableMap<String, Any>): String {
         RelativisticModel.select()
-        val m = Amount.valueOf("12 GeV").to(SI.KILOGRAM)
-        model.put("header", "Some Math")
+        val energy = System.getenv().get("ENERGY");
+        val m = Amount.valueOf(energy).to(SI.KILOGRAM)
         model.put("science", "E=mc^2: 12 GeV = $m")
         return "hello"
     }
