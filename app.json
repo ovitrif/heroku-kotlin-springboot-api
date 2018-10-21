@@ -1,5 +1,4 @@
 {
-  "name": "Start on Heroku: Kotlin",
-  "description": "A barebones Kotlin app, which can easily be deployed to Heroku.",
-  "addons": [ "heroku-postgresql" ]
+  "name": "Rest Api Mock",
+  "description": "Sample Rest Api Kotlin application deployed to Heroku."
 }
