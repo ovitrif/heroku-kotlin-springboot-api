@@ -1,6 +1,6 @@
-A sample REST Api built with Spring Boot in Kotlin, which can easily be deployed to Heroku.
-
+# A sample Spring Boot REST Api in Kotlin
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)][license-url]
+Ready to be deployed to Heroku.
 
 ## ⏳ Prerequisites
 
