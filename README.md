@@ -1,23 +1,23 @@
-# kotlin-getting-started
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)][license-url]
 
-A barebones Kotlin app, which can easily be deployed to Heroku.
+A sample REST Api built with Spring Boot in Kotlin, which can easily be deployed to Heroku.
 
-This application supports the [Getting Started with Kotlin on Heroku](https://devcenter.heroku.com/articles/getting-started-with-kotlin) article - check it out.
+## ⏳ Prerequisites
 
-## Running Locally
+1. Java - [How to Install JDK (on Windows, Mac OS & Ubuntu)](https://www3.ntu.edu.sg/home/ehchua/programming/howto/JDK_Howto.html).
+2. The [Heroku CLI](https://cli.heroku.com/).
 
-Make sure you have Java installed.  Also, install the [Heroku CLI](https://cli.heroku.com/).
-
+## 🎬 Running Locally
+1. Clone this repository on your local machine.
+2. In a terminal window, go to the root directory of the repo and run:
 ```sh
-$ git clone https://github.com/heroku/kotlin-getting-started.git
-$ cd kotlin-getting-started
-gradle build
+./gradlew build
 heroku local:start
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## ☁️ Deploying to Heroku
 
 ```sh
 $ heroku create
@@ -25,8 +25,7 @@ $ git push heroku master
 $ heroku open
 ```
 
-## Documentation
+## 📜 License
+Licensed with the [MIT License][license-url].
 
-For more information about using Java and Kotlin on Heroku, see these Dev Center articles:
-
-- [Java on Heroku](https://devcenter.heroku.com/categories/java)
+[license-url]: https://github.com/ovitrif/heroku-kotlin-springboot-api/blob/master/LICENSE
