@@ -1,5 +1,7 @@
 # A sample Spring Boot REST Api in Kotlin
+[![Heroku](http://heroku-badge.herokuapp.com/?app=heroku-kotlin-springboot-api&style=flat&svg=1)](https://heroku-kotlin-springboot-api.herokuapp.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)][license-url]
+
 Ready to be deployed to Heroku.
 
 ## ⏳ Prerequisites

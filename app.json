@@ -1,4 +1,4 @@
 {
-  "name": "Rest Api Mock",
-  "description": "Sample Rest Api Kotlin application deployed to Heroku."
+  "name": "Rest Api Spring Boot App",
+  "description": "Sample Rest Api Spring Boot application written in Kotlin."
 }
